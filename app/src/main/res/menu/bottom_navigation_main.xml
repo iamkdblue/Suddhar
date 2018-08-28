@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/text_dashboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_credit_report"
+        android:enabled="true"
+        android:icon="@drawable/ic_credit_report"
+        android:title="@string/text_credit_report"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_article"
+        android:enabled="true"
+        android:icon="@drawable/ic_article"
+        android:title="@string/text_article"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_my_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_my_account"
+        android:title="@string/text_my_account"
+        app:showAsAction="ifRoom" />
+</menu>
